@@ -75,6 +75,8 @@
   </div>
 </template>
 <script>
+import { timePasedSince } from '@/utils'
+
 export default {
   data() {
     return {
@@ -83,7 +85,12 @@ export default {
       fields: [
         { key: 'system_name', sortable: true },
         { key: 'influence', sortable: true },
-        { key: 'updated_at', sortable: true },
+        {
+          key: 'updated_at',
+          sortable: true,
+          label: 'Last Update',
+          formatter: (value) => timePasedSince(new Date(value)),
+        },
       ],
     }
   },
@@ -95,7 +102,9 @@ export default {
       return this.$store.state.bgs.routeAdvisor.factionName
     },
     factionLastUpdate() {
-      return this.$store.state.bgs.routeAdvisor.factionLastUpdate
+      return timePasedSince(
+        this.$store.state.bgs.routeAdvisor.factionLastUpdate
+      )
     },
   },
   methods: {
