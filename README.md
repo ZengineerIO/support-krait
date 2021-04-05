@@ -6,7 +6,7 @@ but some CMDR out there might find them useful.
 
 ## current Feature(s)
 
-- ### [BGS Route Advisor](https://zengineerio.github.io/support-krait/route-advisor/)
+- ### [BGS Route Advisor](https://zengineerio.github.io/support-krait/bgs/route-advisor/)
 
   A tool to create an efficient route through the systems of a faction.
   It generates a table with systems where the faction is present in which you can select
