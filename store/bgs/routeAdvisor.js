@@ -63,11 +63,12 @@ export const actions = {
       if (res.docs.length > 0) {
         const systems = []
         res.docs[0].faction_presence.forEach((system) => {
+          system.updated_at = new Date(system.updated_at)
           systems.push(system)
         })
 
         commit('setFactionName', res.docs[0].name)
-        commit('setFactionLastUpdate', res.docs[0].updated_at)
+        commit('setFactionLastUpdate', new Date(res.docs[0].updated_at))
         commit('setSystems', systems)
       } else {
         commit(

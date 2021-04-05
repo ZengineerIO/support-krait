@@ -72,6 +72,7 @@ export default {
       'BInputGroup',
       'BInputGroupAppend',
       'BButton',
+      'BButtonGroup',
       'BTable',
       'BCollapse',
       'BDropdownItem',
