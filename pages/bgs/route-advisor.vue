@@ -11,13 +11,18 @@
       </b-col>
     </b-row>
     <b-row>
-      <b-col cols="3">
-        <b-card class="mb-3" title="Faction Search" bg-variant="secondary">
+      <b-col lg="3">
+        <b-card class="my-2" title="Faction Search" bg-variant="secondary">
           <b-card-body>
             <BGSRouteAdvisorFactionForm />
           </b-card-body>
         </b-card>
-        <b-card v-if="hasSystems" title="Route Advisor" bg-variant="secondary">
+        <b-card
+          v-if="hasSystems"
+          class="my-2"
+          title="Route Advisor"
+          bg-variant="secondary"
+        >
           <b-card-body>
             <BGSRouteAdvisorRouteForm v-if="hasSystems && hasSelectedSystems" />
             <p v-if="hasSystems && !hasSelectedSystems">

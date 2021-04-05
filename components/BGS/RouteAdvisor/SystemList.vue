@@ -1,7 +1,7 @@
 <template>
-  <div class="h-100">
+  <div>
     <b-row>
-      <b-col cols="8">
+      <b-col lg="8">
         <h2>
           {{ factionName }}
         </h2>
@@ -10,45 +10,43 @@
         <p>(last update: {{ factionLastUpdate }})</p>
       </b-col>
     </b-row>
-    <b-row class="my-3">
-      <b-col>
-        <b-button variant="info" block @click="selectAll">Select All</b-button>
-      </b-col>
-      <b-col>
-        <b-button variant="info" block @click="deselectAll"
+    <b-row>
+      <b-button-group class="w-100 mx-3 mb-2">
+        <b-button variant="outline-info" @click="selectAll"
+          >Select All</b-button
+        >
+        <b-button variant="outline-info" @click="deselectAll"
           >Deselect All</b-button
         >
-      </b-col>
-      <b-col>
-        <b-button v-b-modal="'bgs-system-advisor-how-to'" variant="info" block
+        <b-button v-b-modal="'bgs-system-advisor-how-to'" variant="outline-info"
           >How To</b-button
         >
-        <b-modal
-          id="bgs-system-advisor-how-to"
-          title="How to use this tool?"
-          header-bg-variant="dark"
-          body-bg-variant="dark"
-          footer-bg-variant="dark"
-          ok-variant="info"
-          centered
-          hide-header-close
-          ok-only
-        >
-          <p>
-            After successful sytem retrieval you can either sort the table first
-            or start selecting your desired systems to visit (or click Select
-            All).
-          </p>
-          <p>
-            Use <strong>SHIFT</strong> or <strong>CTRL</strong> to select the
-            systems.
-          </p>
-          <p>
-            <strong>Note:</strong> When sorting the table with systems already
-            selected, the selection will be lost!
-          </p>
-        </b-modal>
-      </b-col>
+      </b-button-group>
+      <b-modal
+        id="bgs-system-advisor-how-to"
+        title="How to use this tool?"
+        header-bg-variant="dark"
+        body-bg-variant="dark"
+        footer-bg-variant="dark"
+        ok-variant="info"
+        centered
+        hide-header-close
+        ok-only
+      >
+        <p>
+          After successful sytem retrieval you can either sort the table first
+          or start selecting your desired systems to visit (or click Select
+          All).
+        </p>
+        <p>
+          Use <strong>SHIFT</strong> or <strong>CTRL</strong> to select the
+          systems.
+        </p>
+        <p>
+          <strong>Note:</strong> When sorting the table with systems already
+          selected, the selection will be lost!
+        </p>
+      </b-modal>
     </b-row>
     <b-row>
       <b-col>
@@ -65,7 +63,7 @@
           striped
           borderless
           dark
-          sticky-header="40em"
+          sticky-header="70vh"
           select-mode="range"
           primary-key="system_name"
           @row-selected="onRowSelected"
