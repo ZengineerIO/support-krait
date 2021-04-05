@@ -1,0 +1,23 @@
+/* Custom Bootstrap Theme */
+@import '@/assets/scss/custom-bootstrap-vars.scss';
+/* Include Bootstrap and BootstrapVue SCSS files */
+@import '@/node_modules/bootstrap/scss/bootstrap.scss';
+@import '@/node_modules/bootstrap-vue/src/index.scss';
+
+/* Main Style */
+
+/* Inputs */
+/* - Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* - Firefox */
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+.form-text.text-muted {
+  color: $light !important;
+}
