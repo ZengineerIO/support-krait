@@ -82,7 +82,11 @@ export default {
       sortDesc: true,
       fields: [
         { key: 'system_name', sortable: true },
-        { key: 'influence', sortable: true },
+        {
+          key: 'influence',
+          sortable: true,
+          formatter: (value) => Math.round(value * 100 * 100) / 100 + '%',
+        },
         {
           key: 'updated_at',
           sortable: true,
