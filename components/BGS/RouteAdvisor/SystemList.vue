@@ -7,7 +7,7 @@
         </h2>
       </b-col>
       <b-col>
-        <p>(last update: {{ factionLastUpdate }})</p>
+        <p class="lg-text-right">(last update: {{ factionLastUpdate }})</p>
       </b-col>
     </b-row>
     <b-row>
