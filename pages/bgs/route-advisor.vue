@@ -12,7 +12,7 @@
     </b-row>
     <b-row>
       <b-col lg="3">
-        <b-card class="my-2" title="Faction Search" bg-variant="secondary">
+        <b-card class="mb-2" title="Faction Search" bg-variant="secondary">
           <b-card-body>
             <BGSRouteAdvisorFactionForm />
           </b-card-body>
@@ -24,10 +24,7 @@
           bg-variant="secondary"
         >
           <b-card-body>
-            <BGSRouteAdvisorRouteForm v-if="hasSystems && hasSelectedSystems" />
-            <p v-if="hasSystems && !hasSelectedSystems">
-              Select Systems to continue
-            </p>
+            <BGSRouteAdvisorRouteForm v-if="hasSystems" />
           </b-card-body>
         </b-card>
       </b-col>
@@ -48,9 +45,6 @@ export default {
   computed: {
     hasSystems() {
       return this.$store.state.bgs.routeAdvisor.systems.length > 0
-    },
-    hasSelectedSystems() {
-      return this.$store.state.bgs.routeAdvisor.selectedSystems.length > 0
     },
   },
 }
