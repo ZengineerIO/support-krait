@@ -18,7 +18,7 @@ but some CMDR out there might find them useful.
 - ### [Engineers Route Advisor](https://zengineerio.github.io/support-krait/engineering/route-advisor/) (ALPHA)
 
   A tool to apply those experimental effects to your new build in an efficient manner.
-  Click the list of engineers together you want to visit and get a link to [spansh.co.uk](https://spansh.co.uk/tourist)
+  Click a list of engineers together you want to visit and get a link to [spansh.co.uk](https://spansh.co.uk/tourist)
   to not loose any further time.
 
 ## Special Thanks belongs to

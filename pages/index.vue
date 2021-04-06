@@ -23,9 +23,9 @@
     >
     <p>
       A tool to apply those experimental effects to your new build in an
-      efficient manner. Click the list of engineers together you want to visit
-      and get a <a href="https://spansh.co.uk/tourist/">spansh.co.uk</a> link to
-      not loose any further time.
+      efficient manner. Click a list of engineers together you want to visit and
+      get a <a href="https://spansh.co.uk/tourist/">spansh.co.uk</a> link to not
+      loose any further time.
     </p>
     <h2>Special Thanks belongs to</h2>
 
