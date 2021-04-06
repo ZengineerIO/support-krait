@@ -6,23 +6,24 @@
       usage but some CMDR out there might find them useful.
     </p>
     <h2>current Feature(s)</h2>
-    <ul>
-      <li>
-        <p><strong>BGS Route Advisor</strong></p>
-        <p>
-          A tool to create an efficient route through the systems of your
-          faction. It generates a table with systems where the faction is
-          present in which you can select all the systems you would like to
-          visit/update. Giving it a few extra infos it creates a link to
-          <a href="https://spansh.co.uk/tourist/">spansh.co.uk</a> to optimise
-          the route.
-        </p>
-        <p>
-          The faction data is beeing fetched from the
-          <a href="https://elitebgs.app/">EliteBGS</a> API.
-        </p>
-      </li>
-    </ul>
+
+    <p>
+      <a href="https://zengineerio.github.io/support-krait/bgs/route-advisor/"
+        ><strong>BGS Route Advisor</strong></a
+      >
+    </p>
+    <p>
+      A tool to create an efficient route through the systems of your faction.
+      It generates a table with systems where the faction is present in which
+      you can select all the systems you would like to visit/update. Giving it a
+      few extra infos it creates a link to
+      <a href="https://spansh.co.uk/tourist/">spansh.co.uk</a> to optimise the
+      route.
+    </p>
+    <p>
+      The faction data is beeing fetched from the
+      <a href="https://elitebgs.app/">EliteBGS</a> API.
+    </p>
     <h2>Special Thanks belongs to</h2>
 
     <ul>
