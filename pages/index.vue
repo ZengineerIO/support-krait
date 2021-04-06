@@ -8,9 +8,7 @@
     <h2>current Feature(s)</h2>
 
     <p>
-      <a href="https://zengineerio.github.io/support-krait/bgs/route-advisor/"
-        ><strong>BGS Route Advisor</strong></a
-      >
+      <a href="bgs/route-advisor"><strong>BGS Route Advisor</strong></a>
     </p>
     <p>
       A tool to create an efficient route through the systems of your faction.
