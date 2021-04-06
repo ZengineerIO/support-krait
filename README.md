@@ -15,6 +15,12 @@ but some CMDR out there might find them useful.
 
   The faction data is beeing fetched from the [EliteBGS](https://elitebgs.app/) API.
 
+- ### [Engineers Route Advisor](https://zengineerio.github.io/support-krait/engineering/route-advisor/) (ALPHA)
+
+  A tool to apply those experimental effects to your new build in an efficient manner.
+  Click a list of engineers together you want to visit and get a link to [spansh.co.uk](https://spansh.co.uk/tourist)
+  to not loose any further time.
+
 ## Special Thanks belongs to
 
 - [Themroc (EDDB)](https://eddb.io/) - For the huge amount of data gathered and provided.

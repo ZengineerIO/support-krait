@@ -1,0 +1,266 @@
+[
+  {
+    "name": "Beam Laser",
+    "category": "Hardpoint",
+    "engineers": ["the_dweller", "broo_tarquin", "mel_brandon"]
+  },
+  {
+    "name": "Burst Laser",
+    "category": "Hardpoint",
+    "engineers": ["the_dweller", "broo_tarquin", "mel_brandon"]
+  },
+  {
+    "name": "Cannon",
+    "category": "Hardpoint",
+    "engineers": ["tod_the_blaster_mcquinn", "the_sarge", "marsha_hicks"]
+  },
+  {
+    "name": "Fragment Cannon",
+    "category": "Hardpoint",
+    "engineers": ["tod_the_blaster_mcquinn", "zacariah_nemo", "marsha_hicks"]
+  },
+  {
+    "name": "Mine Launcher",
+    "category": "Hardpoint",
+    "engineers": ["liz_ryder", "juri_ishmaak", "petra_olmanova"]
+  },
+  {
+    "name": "Missile Rack",
+    "category": "Hardpoint",
+    "engineers": ["liz_ryder", "juri_ishmaak", "petra_olmanova"]
+  },
+  {
+    "name": "Multi-cannon",
+    "category": "Hardpoint",
+    "engineers": ["tod_the_blaster_mcquinn", "zacariah_nemo", "marsha_hicks"]
+  },
+  {
+    "name": "Plasma Accelerator",
+    "category": "Hardpoint",
+    "engineers": ["zacariah_nemo", "bill_turner", "etienne_dorn"]
+  },
+  {
+    "name": "Pulse Laser",
+    "category": "Hardpoint",
+    "engineers": ["the_dweller", "broo_tarquin", "mel_brandon"]
+  },
+  {
+    "name": "Rail Gun",
+    "category": "Hardpoint",
+    "engineers": ["tod_the_blaster_mcquinn", "the_sarge", "etienne_dorn"]
+  },
+  {
+    "name": "Seeker Missile Rack",
+    "category": "Hardpoint",
+    "engineers": ["liz_ryder", "juri_ishmaak", "petra_olmanova"]
+  },
+  {
+    "name": "Torpedo Pylon",
+    "category": "Hardpoint",
+    "engineers": ["liz_ryder", "juri_ishmaak", "petra_olmanova"]
+  },
+  {
+    "name": "Chaff Launcher",
+    "category": "Utility Mount",
+    "engineers": ["ram_tah", "petra_olmanova"]
+  },
+  {
+    "name": "Electronic Countermeasure",
+    "category": "Utility Mount",
+    "engineers": ["ram_tah", "petra_olmanova"]
+  },
+  {
+    "name": "Frame Shift Wake Scanner",
+    "category": "Utility Mount",
+    "engineers": [
+      "juri_ishmaak",
+      "tiana_fortune",
+      "bill_turner",
+      "lori_jameson",
+      "etienne_dorn"
+    ]
+  },
+  {
+    "name": "Heat Sink Launcher",
+    "category": "Utility Mount",
+    "engineers": ["ram_tah", "petra_olmanova"]
+  },
+  {
+    "name": "Kill Warrant Scanner",
+    "category": "Utility Mount",
+    "engineers": [
+      "juri_ishmaak",
+      "tiana_fortune",
+      "bill_turner",
+      "lori_jameson",
+      "etienne_dorn"
+    ]
+  },
+  {
+    "name": "Manifest Scanner",
+    "category": "Utility Mount",
+    "engineers": [
+      "juri_ishmaak",
+      "tiana_fortune",
+      "bill_turner",
+      "lori_jameson",
+      "etienne_dorn"
+    ]
+  },
+  {
+    "name": "Point Defence",
+    "category": "Utility Mount",
+    "engineers": ["ram_tah", "petra_olmanova"]
+  },
+  {
+    "name": "Shield Booster",
+    "category": "Utility Mount",
+    "engineers": [
+      "felicity_farseer",
+      "lei_cheung",
+      "didi_vatermann",
+      "mel_brandon"
+    ]
+  },
+  {
+    "name": "Auto Field-Maintenance Unit",
+    "category": "Optional Internal",
+    "engineers": ["bill_turner", "lori_jameson", "petra_olmanova"]
+  },
+  {
+    "name": "Collector Limpet Controller",
+    "category": "Optional Internal",
+    "engineers": ["tiana_fortune", "the_sarge", "ram_tah", "marsha_hicks"]
+  },
+  {
+    "name": "Detailed Surface Scanner",
+    "category": "Optional Internal",
+    "engineers": [
+      "felicity_farseer",
+      "lei_cheung",
+      "hera_tani",
+      "juri_ishmaak",
+      "tiana_fortune",
+      "bill_turner",
+      "lori_jameson",
+      "etienne_dorn"
+    ]
+  },
+  {
+    "name": "Frame Shift Drive Interdictor",
+    "category": "Optional Internal",
+    "engineers": [
+      "felicity_farseer",
+      "colonel_bris_dekker",
+      "tiana_fortune",
+      "mel_brandon"
+    ]
+  },
+  {
+    "name": "Fuel Scoop",
+    "category": "Optional Internal",
+    "engineers": ["bill_turner", "lori_jameson", "marsha_hicks"]
+  },
+  {
+    "name": "Fuel Transfer Limpet Controller",
+    "category": "Optional Internal",
+    "engineers": ["tiana_fortune", "the_sarge", "ram_tah", "marsha_hicks"]
+  },
+  {
+    "name": "Hatch Breaker Limpet Controller",
+    "category": "Optional Internal",
+    "engineers": ["tiana_fortune", "the_sarge", "ram_tah", "marsha_hicks"]
+  },
+  {
+    "name": "Hull Reinforcement Package",
+    "category": "Optional Internal",
+    "engineers": ["liz_ryder", "selene_jean", "petra_olmanova"]
+  },
+  {
+    "name": "Prospector Limpet Controller",
+    "category": "Optional Internal",
+    "engineers": ["tiana_fortune", "the_sarge", "ram_tah", "marsha_hicks"]
+  },
+  {
+    "name": "Refinery",
+    "category": "Optional Internal",
+    "engineers": ["bill_turner", "lori_jameson", "marsha_hicks"]
+  },
+  {
+    "name": "Shield Cell Bank",
+    "category": "Optional Internal",
+    "engineers": ["elvira_martuuk", "lori_jameson", "mel_brandon"]
+  },
+  {
+    "name": "Shield Generator",
+    "category": "Optional Internal",
+    "engineers": [
+      "elvira_martuuk",
+      "lei_cheung",
+      "didi_vatermann",
+      "mel_brandon"
+    ]
+  },
+  {
+    "name": "Frame Shift Drive",
+    "category": "Core Internal",
+    "engineers": [
+      "felicity_farseer",
+      "elvira_martuuk",
+      "professor_palin",
+      "colonel_bris_dekker",
+      "mel_brandon",
+      "chloe_sedesi"
+    ]
+  },
+  {
+    "name": "Life Support",
+    "category": "Core Internal",
+    "engineers": ["bill_turner", "lori_jameson", "etienne_dorn"]
+  },
+  {
+    "name": "Power Distributor",
+    "category": "Core Internal",
+    "engineers": ["the_dweller", "marco_qwent", "hera_tani", "etienne_dorn"]
+  },
+  {
+    "name": "Power Plant",
+    "category": "Core Internal",
+    "engineers": [
+      "felicity_farseer",
+      "marco_qwent",
+      "hera_tani",
+      "etienne_dorn"
+    ]
+  },
+  {
+    "name": "Sensors",
+    "category": "Core Internal",
+    "engineers": [
+      "felicity_farseer",
+      "lei_cheung",
+      "hera_tani",
+      "juri_ishmaak",
+      "tiana_fortune",
+      "bill_turner",
+      "lori_jameson",
+      "etienne_dorn"
+    ]
+  },
+  {
+    "name": "Thrusters",
+    "category": "Core Internal",
+    "engineers": [
+      "felicity_farseer",
+      "elvira_martuuk",
+      "professor_palin",
+      "mel_brandon",
+      "chloe_sedesi"
+    ]
+  },
+  {
+    "name": "Armour",
+    "category": "Armour",
+    "engineers": ["liz_ryder", "selene_jean", "petra_olmanova"]
+  }
+]

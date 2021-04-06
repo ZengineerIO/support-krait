@@ -18,6 +18,10 @@ input[type='number'] {
   -moz-appearance: textfield;
 }
 
+hr {
+  color: $light !important;
+}
+
 .form-text.text-muted {
   color: $light !important;
 }

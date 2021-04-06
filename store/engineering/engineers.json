@@ -1,0 +1,102 @@
+{
+  "elvira_martuuk": {
+    "name": "Elvira Martuuk",
+    "system": "Khun"
+  },
+  "the_dweller": {
+    "name": "The Dweller",
+    "system": "Wyrd"
+  },
+  "felicity_farseer": {
+    "name": "Felicity Farseer",
+    "system": "Deciat"
+  },
+  "tod_the_blaster_mcquinn": {
+    "name": "Tod 'The Blaster' McQuinn",
+    "system": "Wolf 397"
+  },
+  "liz_ryder": {
+    "name": "Liz Ryder",
+    "system": "Eurybia"
+  },
+  "mel_brandon": {
+    "name": "Mel Brandon",
+    "system": "Luchtaine"
+  },
+  "marsha_hicks": {
+    "name": "Marsha Hicks",
+    "system": "Tir"
+  },
+  "juri_ishmaak": {
+    "name": "Juri Ishmaak",
+    "system": "Giryak"
+  },
+  "petra_olmanova": {
+    "name": "Petra Olmanova",
+    "system": "Asura"
+  },
+  "etienne_dorn": {
+    "name": "Etienne Dorn",
+    "system": "Los"
+  },
+  "zacariah_nemo": {
+    "name": "Zacariah Nemo",
+    "system": "Yoru"
+  },
+  "lei_cheung": {
+    "name": "Lei Cheung",
+    "system": "Laksak"
+  },
+  "colonel_bris_dekker": {
+    "name": "Colonel Bris Dekker",
+    "system": "Sol"
+  },
+  "selene_jean": {
+    "name": "Selene Jean",
+    "system": "Kuk"
+  },
+  "hera_tani": {
+    "name": "Hera Tani",
+    "system": "Kuwemaki"
+  },
+  "marco_qwent": {
+    "name": "Marco Qwent",
+    "system": "Sirius"
+  },
+  "ram_tah": {
+    "name": "Ram Tah",
+    "system": "Meene"
+  },
+  "the_sarge": {
+    "name": "The Sarge",
+    "system": "Beta-3 Tucani"
+  },
+  "didi_vatermann": {
+    "name": "Didi Vatermann",
+    "system": "Leesti"
+  },
+  "broo_tarquin": {
+    "name": "Broo Tarquin",
+    "system": "Muang"
+  },
+  "professor_palin": {
+    "name": "Professor Palin",
+    "system": "Arque"
+  },
+  "lori_jameson": {
+    "name": "Lori Jameson",
+    "system": "Shinrarta Dezhra"
+  },
+  "chloe_sedesi": {
+    "name": "Chloe Sedesi",
+    "system": "Shenve"
+  },
+  "bill_turner": {
+    "name": "Bill Turner",
+    "system": "Alioth"
+  },
+  "tiana_fortune": {
+    "name": "Tiana Fortune",
+    "system": "Achenar"
+  }
+}
