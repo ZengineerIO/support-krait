@@ -21,3 +21,11 @@ input[type='number'] {
 .form-text.text-muted {
   color: $light !important;
 }
+
+.btn-group > .btn#bgs-system-advisor-how-to-button {
+  flex-grow: 0 !important;
+}
+.btn-group > .btn:not(#bgs-system-advisor-how-to-button) {
+  flex-shrink: 0 !important;
+  flex-basis: 0 !important;
+}

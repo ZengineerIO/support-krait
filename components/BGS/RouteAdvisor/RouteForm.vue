@@ -54,9 +54,13 @@
           variant="info"
           :href="routeUrl"
           target="_blank"
-          :disabled="selectedSystems.length == 0"
+          :disabled="selectedSystems.length == 0 || !startSystem"
           >{{
-            selectedSystems.length > 0 ? 'Get Route' : 'Select Systems first'
+            selectedSystems.length > 0
+              ? startSystem
+                ? 'Get Route'
+                : 'Select Start System'
+              : 'Select Systems first'
           }}</b-button
         >
       </b-form>
@@ -95,13 +99,6 @@ export default {
     },
     routeUrl() {
       const baseUrl = 'https://spansh.co.uk/tourist/results/SUPPORT_KRAIT'
-
-      if (!this.$store.state.bgs.routeAdvisor.startSystem) {
-        this.$store.commit(
-          'bgs/routeAdvisor/setStartSystem',
-          this.$store.state.bgs.routeAdvisor.systems[0].system_name
-        )
-      }
 
       let destination = '['
       this.$store.state.bgs.routeAdvisor.selectedSystems.forEach(

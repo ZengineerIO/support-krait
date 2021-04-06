@@ -15,7 +15,7 @@ but some CMDR out there might find them useful.
 
   The faction data is beeing fetched from the [EliteBGS](https://elitebgs.app/) API.
 
-## Special Thanks goes to
+## Special Thanks belongs to
 
 - [Themroc (EDDB)](https://eddb.io/) - For the huge amount of data gathered and provided.
 - [EliteBGS](https://elitebgs.app/) - For the glue between EDDB and BGS but also for providing the API.
