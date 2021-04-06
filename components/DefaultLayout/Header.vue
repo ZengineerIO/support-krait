@@ -11,6 +11,11 @@
             <b-dropdown-item href="bgs/route-advisor"
               >Route Advisor</b-dropdown-item
             >
+          </b-nav-item-dropdown>
+          <b-nav-item-dropdown text="Engineering" right variant="dark">
+            <b-dropdown-item href="engineering/route-advisor"
+              >Route Advisor</b-dropdown-item
+            >
             <b-dropdown-item href="#" disabled>more to come</b-dropdown-item>
           </b-nav-item-dropdown>
           <!--b-nav-item href="#" disabled>Disabled</b-nav-item-->
