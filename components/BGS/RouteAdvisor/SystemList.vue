@@ -47,19 +47,21 @@
           or start selecting your desired systems to visit (or click Select
           All).
         </p>
+        <h5>Range Mode</h5>
         <p>
-          <strong>Range Mode:</strong>
           Use <strong>SHIFT</strong> or <strong>CTRL</strong> to select the
           systems. <br />
-          This mode does not work on mobile devices.
+          <strong>Info:</strong> This mode does not work on mobile devices.
         </p>
+        <h5>Multi Mode</h5>
         <p>
-          <strong>Multi Mode:</strong>
-          Simply click to (de)select a system.
+          Simply click to (de)select a system. <br />
+          Work fine on mobile devices.
         </p>
+        <h5>Important note</h5>
         <p>
-          <strong>Note:</strong> When sorting the table or changing the mode
-          with systems already selected, the selection will be
+          When sorting the table or changing the mode with systems already
+          selected, the selection will be
           <strong>lost</strong>!
         </p>
       </b-modal>
