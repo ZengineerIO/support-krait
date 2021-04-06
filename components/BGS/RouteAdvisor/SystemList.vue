@@ -12,24 +12,25 @@
     </b-row>
     <b-row>
       <b-button-group class="w-100 mx-3 mb-2">
-        <b-button class="w-25" variant="outline-info" @click="selectAll"
+        <b-button class="w-30" variant="outline-info" @click="selectAll"
           >Select All</b-button
         >
-        <b-button class="w-25" variant="outline-info" @click="deselectAll"
+        <b-button class="w-30" variant="outline-info" @click="deselectAll"
           >Deselect All</b-button
         >
-        <b-button class="w-25" variant="outline-info" @click="toggleSelectMode"
+        <b-button class="w-30" variant="outline-info" @click="toggleSelectMode"
           >Mode:
           {{
             selectMode.charAt(0).toUpperCase() + selectMode.slice(1)
           }}</b-button
         >
         <b-button
+          id="bgs-system-advisor-how-to-button"
           v-b-modal="'bgs-system-advisor-how-to'"
-          class="w-25"
           variant="outline-info"
-          >How To</b-button
         >
+          <b-icon icon="info-circle"></b-icon>
+        </b-button>
       </b-button-group>
       <b-modal
         id="bgs-system-advisor-how-to"
