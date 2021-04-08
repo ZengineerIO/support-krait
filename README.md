@@ -21,7 +21,7 @@ but some CMDR out there might find them useful.
   Click a list of engineers together you want to visit and get a link to [spansh.co.uk](https://spansh.co.uk/tourist)
   to not loose any further time.
 
-- ### [Engineering Material Finder](https://zengineerio.github.io/support-krait/engineering/route-advisor/) (ALPHA)
+- ### [Engineering Material Finder](https://zengineerio.github.io/support-krait/engineering/material-finder/) (ALPHA)
 
   Let's you select a specific engineering material and fetches a list of
   systems where CMDRs have recently collected some. The information is
