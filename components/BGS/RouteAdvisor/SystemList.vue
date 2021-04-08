@@ -101,7 +101,7 @@ export default {
       sortDesc: true,
       selectRange: true,
       fields: [
-        { key: 'system_name', sortable: true },
+        { key: 'system_name', label: 'System', sortable: true },
         {
           key: 'influence',
           sortable: true,
