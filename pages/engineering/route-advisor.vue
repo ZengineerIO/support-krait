@@ -101,20 +101,13 @@
                 >Loop Route</b-form-checkbox
               >
             </b-form-group>
-            <b-button
-              type="submit"
-              variant="info"
-              :href="routeUrl"
-              target="_blank"
-              :disabled="selectedEngineers.length == 0 || !startSystem"
-              >{{
-                selectedEngineers.length > 0
-                  ? startSystem
-                    ? 'Get Route'
-                    : 'Select Start System'
-                  : 'Add Engineers first'
-              }}</b-button
-            >
+            <UtilsSpanshRouteButton
+              :start-system="startSystem"
+              :destinations="selectedEngineers"
+              :jump-range="jumpRange"
+              :loop-route="loopRoute"
+              button-text="Engineers"
+            />
           </b-form>
         </b-card>
       </b-col>
@@ -147,9 +140,13 @@ export default {
           disabled: true,
         },
       ],
-      selectedEngineer: null,
-      selectedEngineers: [],
-      selectedEngineersFields: ['name', 'system'],
+      selectedEngineersFields: [
+        'name',
+        {
+          key: 'system_name',
+          label: 'System',
+        },
+      ],
       jumpRange: 50,
       loopRoute: false,
       startSystem: null,
@@ -164,48 +161,27 @@ export default {
       })
       return engineers
     },
-    routeUrl() {
-      const baseUrl = 'https://spansh.co.uk/tourist/results/SUPPORT_KRAIT'
-
-      let destination = '['
-      this.selectedEngineers.forEach((engineer, i) => {
-        destination += `"${engineer.system}"`
-        if (i !== this.selectedEngineers.length - 1) {
-          destination += ','
-        }
-      })
-      destination += ']'
-
-      return `${baseUrl}?destination=${encodeURIComponent(
-        destination
-      )}&range=${encodeURIComponent(
-        this.jumpRange
-      )}&source=${encodeURIComponent(
-        this.startSystem
-      )}&loop=${encodeURIComponent(Number(this.loopRoute))}`
+    selectedEngineer: {
+      get() {
+        return this.$store.state.engineering.routeAdvisor.selectedEngineer
+      },
+      set(engineer) {
+        this.$store.commit(
+          'engineering/routeAdvisor/setSelectedEngineer',
+          engineer
+        )
+      },
+    },
+    selectedEngineers() {
+      return this.$store.state.engineering.routeAdvisor.selectedEngineers
     },
   },
   methods: {
     addEngineer() {
-      if (
-        !this.selectedEngineers.includes(
-          this.$store.state.engineering.routeAdvisor.engineers[
-            this.selectedEngineer
-          ]
-        )
-      ) {
-        this.selectedEngineers.push(
-          this.$store.state.engineering.routeAdvisor.engineers[
-            this.selectedEngineer
-          ]
-        )
-      }
+      this.$store.commit('engineering/routeAdvisor/addEngineer')
     },
-    removeEngineer(items) {
-      const index = this.selectedEngineers.indexOf(items)
-      if (index > -1) {
-        this.selectedEngineers.splice(index, 1)
-      }
+    removeEngineer(engineerId) {
+      this.$store.commit('engineering/routeAdvisor/removeEngineer', engineerId)
     },
   },
 }
