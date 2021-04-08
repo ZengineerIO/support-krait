@@ -27,6 +27,18 @@
       get a <a href="https://spansh.co.uk/tourist/">spansh.co.uk</a> link to not
       loose any further time.
     </p>
+
+    <a href="engineering/material-finder"
+      ><strong>Engineering Material Finder (ALPHA)</strong></a
+    >
+    <p>
+      Let's you select a specific engineering material and fetches a list of
+      systems where CMDRs have recently collected some. The information is
+      beeing fetched from the
+      <a href="#">Canonn Research</a> API. You have also the possibillity to use
+      <a href="https://spansh.co.uk/tourist/">spansh.co.uk</a> for an optimised
+      route.
+    </p>
     <h2>Special Thanks belongs to</h2>
 
     <ul>
@@ -37,6 +49,10 @@
       <li>
         <a href="https://elitebgs.app/">EliteBGS</a> - For the glue between EDDB
         and BGS but also for providing the API.
+      </li>
+      <li>
+        <a href="https://canonn.science">Canonn Research</a> - For even more
+        data and providing an API to it.
       </li>
       <li>
         <a href="https://spansh.co.uk/">CMDR Spansh</a> - For the magic of route

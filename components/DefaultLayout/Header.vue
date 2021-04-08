@@ -16,7 +16,10 @@
             <b-dropdown-item href="engineering/route-advisor"
               >Route Advisor</b-dropdown-item
             >
-            <b-dropdown-item href="#" disabled>more to come</b-dropdown-item>
+            <b-dropdown-item href="engineering/material-finder"
+              >Material Finder</b-dropdown-item
+            >
+            <b-dropdown-item href="#" disabled>more soon</b-dropdown-item>
           </b-nav-item-dropdown>
           <!--b-nav-item href="#" disabled>Disabled</b-nav-item-->
         </b-navbar-nav>

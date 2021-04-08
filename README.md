@@ -15,16 +15,25 @@ but some CMDR out there might find them useful.
 
   The faction data is beeing fetched from the [EliteBGS](https://elitebgs.app/) API.
 
-- ### [Engineers Route Advisor](https://zengineerio.github.io/support-krait/engineering/route-advisor/) (ALPHA)
+- ### [Engineering Route Advisor](https://zengineerio.github.io/support-krait/engineering/route-advisor/) (ALPHA)
 
   A tool to apply those experimental effects to your new build in an efficient manner.
   Click a list of engineers together you want to visit and get a link to [spansh.co.uk](https://spansh.co.uk/tourist)
   to not loose any further time.
 
+- ### [Engineering Material Finder](https://zengineerio.github.io/support-krait/engineering/route-advisor/) (ALPHA)
+
+  Let's you select a specific engineering material and fetches a list of
+  systems where CMDRs have recently collected some. The information is
+  beeing fetched from he [Canonn Research](https://canonn.tech/) API.
+  You have also the possibillity to use [spansh.co.uk](https://spansh.co.uk/tourist)
+  for an optimised route.
+
 ## Special Thanks belongs to
 
 - [Themroc (EDDB)](https://eddb.io/) - For the huge amount of data gathered and provided.
 - [EliteBGS](https://elitebgs.app/) - For the glue between EDDB and BGS but also for providing the API.
+- [Canonn Research](https://canonn.science/) - For even more data and providing an API to it.
 - [CMDR Spansh](https://spansh.co.uk/) - For the magic of route optimisation.
 
 ## Development
