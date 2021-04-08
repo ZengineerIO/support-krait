@@ -49,7 +49,14 @@
           >
         </b-form-group>
 
-        <b-button
+        <UtilsSpanshRouteButton
+          :start-system="startSystem"
+          :destinations="selectedSystems"
+          :jump-range="jumpRange"
+          :loop-route="loopRoute"
+          button-text="Systems"
+        />
+        <!--b-button
           type="submit"
           variant="info"
           :href="routeUrl"
@@ -62,7 +69,7 @@
                 : 'Select Start System'
               : 'Select Systems first'
           }}</b-button
-        >
+        -->
       </b-form>
     </b-col>
   </b-row>
@@ -72,7 +79,7 @@ export default {
   computed: {
     loopRoute: {
       get() {
-        return this.$store.state.bgs.routeAdvisor.loopState
+        return this.$store.state.bgs.routeAdvisor.loopRoute
       },
       set(loop) {
         this.$store.commit('bgs/routeAdvisor/setToggleRoute', loop)
