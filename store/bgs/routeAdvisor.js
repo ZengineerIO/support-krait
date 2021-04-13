@@ -2,11 +2,8 @@ export const state = () => ({
   factionId: 76830,
   factionName: null,
   factionLastUpdate: null,
-  jumpRange: 50,
   systems: [],
   selectedSystems: [],
-  startSystem: null,
-  loopRoute: false,
   fetching: false,
   fetchingError: null,
 })
@@ -20,15 +17,6 @@ export const mutations = {
   },
   setFactionLastUpdate(state, update) {
     state.factionLastUpdate = update
-  },
-  setJumpRange(state, range) {
-    state.jumpRange = range
-  },
-  setToggleRoute(state, loop) {
-    state.loopRoute = loop
-  },
-  setStartSystem(state, system) {
-    state.startSystem = system
   },
   toggleFetching(state) {
     state.fetching = !state.fetching

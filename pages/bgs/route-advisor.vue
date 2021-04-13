@@ -17,34 +17,27 @@
             <BGSRouteAdvisorFactionForm />
           </b-card-body>
         </b-card>
-        <b-card
-          v-if="hasSystems"
-          class="my-2"
-          title="Route Advisor"
-          bg-variant="secondary"
-        >
+        <b-card class="my-2" title="Route Advisor" bg-variant="secondary">
           <b-card-body>
-            <BGSRouteAdvisorRouteForm v-if="hasSystems" />
+            <UtilsSpanshRouteForm
+              button-text="Systems"
+              :destinations="selectedSystems"
+            />
           </b-card-body>
         </b-card>
       </b-col>
       <b-col>
-        <BGSRouteAdvisorSystemList v-if="hasSystems" />
+        <BGSRouteAdvisorSystemList />
       </b-col>
     </b-row>
   </div>
 </template>
 
 <script>
-import BGSRouteAdvisorRouteForm from '@/components/BGS/RouteAdvisor/RouteForm'
-
 export default {
-  components: {
-    BGSRouteAdvisorRouteForm,
-  },
   computed: {
-    hasSystems() {
-      return this.$store.state.bgs.routeAdvisor.systems.length > 0
+    selectedSystems() {
+      return this.$store.state.bgs.routeAdvisor.selectedSystems
     },
   },
 }

@@ -10,7 +10,7 @@
         ? startSystem
           ? 'Get Route'
           : 'Select Start System'
-        : `Add ${buttonText} first`
+        : `Select ${buttonText} first`
     }}</b-button
   >
 </template>
