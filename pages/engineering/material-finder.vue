@@ -44,8 +44,12 @@
 
 <script>
 import { mapGetters } from 'vuex'
+import EngineeringMaterialFinderMaterialSelectionForm from '@/components/Engineering/MaterialFinder/MaterialSelectionForm'
 
 export default {
+  components: {
+    EngineeringMaterialFinderMaterialSelectionForm,
+  },
   data() {
     return {
       systemListFields: [
