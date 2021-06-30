@@ -19,7 +19,7 @@
     </p>
 
     <a href="engineering/route-advisor"
-      ><strong>Engineering Route Advisor (ALPHA)</strong></a
+      ><strong>Engineering Route Advisor (BETA)</strong></a
     >
     <p>
       A tool to apply those experimental effects to your new build in an
@@ -29,7 +29,7 @@
     </p>
 
     <a href="engineering/material-finder"
-      ><strong>Engineering Material Finder (ALPHA)</strong></a
+      ><strong>Engineering Material Finder (BETA)</strong></a
     >
     <p>
       Let's you select a specific engineering material and fetches a list of
