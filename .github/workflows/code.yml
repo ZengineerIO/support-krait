@@ -1,9 +1,9 @@
-name: cd
+name: code
 
 on:
   push:
     branches:
-      - main
+      - development
 
 jobs:
   ci:
@@ -42,12 +42,3 @@ jobs:
 
       - name: Run linter 👀
         run: yarn lint
-
-      - name: Generate 🖨️
-        run: yarn generate
-
-      - name: Deploy 🦼
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          deploy_key: ${{ secrets.PAGES_DEPLOY_KEY }}
-          publish_dir: ./dist
