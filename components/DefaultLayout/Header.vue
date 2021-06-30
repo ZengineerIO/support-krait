@@ -19,9 +19,11 @@
             <b-dropdown-item href="engineering/material-finder"
               >Material Finder</b-dropdown-item
             >
+            <!-- b-dropdown-item href="engineering/edengineer-companion"
+              >EDEngineer Companion</b-dropdown-item
+            -->
             <b-dropdown-item href="#" disabled>more soon</b-dropdown-item>
           </b-nav-item-dropdown>
-          <!--b-nav-item href="#" disabled>Disabled</b-nav-item-->
         </b-navbar-nav>
 
         <!-- Right aligned nav items -->
