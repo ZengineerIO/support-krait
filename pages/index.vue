@@ -6,7 +6,7 @@
       usage but some CMDR out there might find them useful.
     </p>
 
-    <h2>current Feature(s)</h2>
+    <h2>Current Feature(s)</h2>
 
     <a href="bgs/route-advisor"><strong>BGS Route Advisor</strong></a>
     <p>
@@ -51,6 +51,12 @@
       >
       to share the materials you find and where you find them.
     </p>
+
+    <hr />
+
+    <h3>Currently in Development</h3>
+
+    <strong>Material Finder integration with EDEngineer</strong>
 
     <hr />
 
