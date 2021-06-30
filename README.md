@@ -1,5 +1,8 @@
 # [Support Krait](https://zengineerio.github.io/support-krait/)
 
+![code workflow](https://github.com/ZengineerIO/support-krait/actions/workflows/code.yml/badge.svg)
+![deploy workflow](https://github.com/ZengineerIO/support-krait/actions/workflows/deploy.yml/badge.svg)
+
 My growing collection of tools for CMDRs. These are mostly utilisations of the
 awesome already existing tools out there, mainly created for my own usage
 but some CMDR out there might find them useful.
