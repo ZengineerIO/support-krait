@@ -5,6 +5,7 @@
       the awesome already existing tools out there, mainly created for my own
       usage but some CMDR out there might find them useful.
     </p>
+
     <h2>current Feature(s)</h2>
 
     <a href="bgs/route-advisor"><strong>BGS Route Advisor</strong></a>
@@ -18,6 +19,8 @@
       <a href="https://elitebgs.app/">EliteBGS</a> API.
     </p>
 
+    <hr />
+
     <a href="engineering/route-advisor"
       ><strong>Engineering Route Advisor (BETA)</strong></a
     >
@@ -27,6 +30,8 @@
       get a <a href="https://spansh.co.uk/tourist/">spansh.co.uk</a> link to not
       loose any further time.
     </p>
+
+    <hr />
 
     <a href="engineering/material-finder"
       ><strong>Engineering Material Finder (BETA)</strong></a
@@ -39,6 +44,16 @@
       <a href="https://spansh.co.uk/tourist/">spansh.co.uk</a> for an optimised
       route.
     </p>
+    <p>
+      Please consider usind the
+      <a href="https://github.com/canonn-science/EDMC-Canonn"
+        >EDMC-Canonn Plugin</a
+      >
+      to share the materials you find and where you find them.
+    </p>
+
+    <hr />
+
     <h2>Special Thanks belongs to</h2>
 
     <ul>

@@ -29,6 +29,9 @@ but some CMDR out there might find them useful.
   You have also the possibillity to use [spansh.co.uk](https://spansh.co.uk/tourist)
   for an optimised route.
 
+  Please consider usind the [EDMC-Canonn Plugin](https://github.com/canonn-science/EDMC-Canonn)
+  to share the materials you find and where you find them.
+
 ## Special Thanks belongs to
 
 - [Themroc (EDDB)](https://eddb.io/) - For the huge amount of data gathered and provided.
