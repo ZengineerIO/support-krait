@@ -2,7 +2,7 @@
   <div>
     <b-row>
       <b-col>
-        <h1>Material Finder (ALPHA)</h1>
+        <h1>Material Finder (BETA)</h1>
       </b-col>
     </b-row>
     <b-row>

@@ -15,7 +15,7 @@ export const state = () => ({
   selectedMaterialCategory: 'All',
   selectedMaterialGrade: 'All',
   selectedMaterial: null,
-  limitResults: '10',
+  limitResults: '24',
   systemsWithDrops: [],
   fetching: false,
   fetchingError: null,
@@ -61,16 +61,24 @@ export const mutations = {
 
 export const actions = {
   async getSystemsWithDrops({ commit, state }) {
-    const url = 'https://api.canonn.tech:2053/materialreports'
+    const url = 'https://api.canonn.tech/materialreports'
     const material = `journalName_contains=${state.selectedMaterial}`
-    const order = '&_sort=created_at:DESC'
-    const limit =
-      state.limitResults === 'All' ? '' : `&_limit=${state.limitResults}`
+    const order = `_sort=${encodeURIComponent('created_at:desc')}`
+
+    let limit = ''
+
+    if (state.limitResults !== 'All') {
+      const range = new Date(
+        Date.now() - Number(state.limitResults) * 60 * 60 * 1000
+      )
+      limit = `created_at_gte=${encodeURIComponent(range.toISOString())}`
+      // limit = `&_limit=${state.limitResults}`
+    }
 
     let res
     try {
       commit('toggleFetching')
-      res = await fetch(`${url}?${material}${order}${limit}`, {
+      res = await fetch(`${url}?${order}&${material}&${limit}`, {
         method: 'GET',
       }).then((res) => res.json())
 

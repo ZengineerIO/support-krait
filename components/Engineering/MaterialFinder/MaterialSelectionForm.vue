@@ -41,7 +41,7 @@
     </b-form-group>
     <b-form-group
       id="input-group-limit-results"
-      label="Limit Results"
+      label="Limit Range (Hours)"
       label-for="input-limit-results"
     >
       <b-form-select
@@ -66,7 +66,18 @@ import { mapActions, mapGetters } from 'vuex'
 export default {
   data() {
     return {
-      limitResultsOptions: ['5', '10', '15', '20', '25', 'All'],
+      limitResultsOptions: [
+        '1',
+        '2',
+        '3',
+        '6',
+        '12',
+        '24',
+        '48',
+        '72',
+        '96',
+        'All',
+      ],
     }
   },
   computed: {
