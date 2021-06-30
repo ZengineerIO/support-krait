@@ -5,7 +5,8 @@
       the awesome already existing tools out there, mainly created for my own
       usage but some CMDR out there might find them useful.
     </p>
-    <h2>current Feature(s)</h2>
+
+    <h2>Current Feature(s)</h2>
 
     <a href="bgs/route-advisor"><strong>BGS Route Advisor</strong></a>
     <p>
@@ -18,8 +19,10 @@
       <a href="https://elitebgs.app/">EliteBGS</a> API.
     </p>
 
+    <hr />
+
     <a href="engineering/route-advisor"
-      ><strong>Engineering Route Advisor (ALPHA)</strong></a
+      ><strong>Engineering Route Advisor (BETA)</strong></a
     >
     <p>
       A tool to apply those experimental effects to your new build in an
@@ -28,8 +31,10 @@
       loose any further time.
     </p>
 
+    <hr />
+
     <a href="engineering/material-finder"
-      ><strong>Engineering Material Finder (ALPHA)</strong></a
+      ><strong>Engineering Material Finder (BETA)</strong></a
     >
     <p>
       Let's you select a specific engineering material and fetches a list of
@@ -39,6 +44,22 @@
       <a href="https://spansh.co.uk/tourist/">spansh.co.uk</a> for an optimised
       route.
     </p>
+    <p>
+      Please consider usind the
+      <a href="https://github.com/canonn-science/EDMC-Canonn"
+        >EDMC-Canonn Plugin</a
+      >
+      to share the materials you find and where you find them.
+    </p>
+
+    <hr />
+
+    <h3>Currently in Development</h3>
+
+    <strong>Material Finder integration with EDEngineer</strong>
+
+    <hr />
+
     <h2>Special Thanks belongs to</h2>
 
     <ul>
